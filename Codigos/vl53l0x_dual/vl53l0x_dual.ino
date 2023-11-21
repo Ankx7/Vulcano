@@ -1,8 +1,8 @@
 #include "Adafruit_VL53L0X.h"
 
 // address we will assign if dual sensor is present
-#define LOX1_ADDRESS 0x29
-#define LOX2_ADDRESS 0x31
+#define LOX1_ADDRESS 0x31
+#define LOX2_ADDRESS 0x29
 
 // set the pins to shutdown
 #define SHT_LOX1 7

@@ -23,12 +23,11 @@ void loop() {
   VL53L0X_RangingMeasurementData_t measure;
   lox.rangingTest(&measure, false);
   // pass in 'true' to get debug data printout!
-
+/*
   if (measure.RangeStatus != 4 && measure.RangeMilliMeter < 1000) {
     // phase failures have incorrect data
     Serial.println("hay ana");
-  }
-  
-
-  
+  }  
+  */
+  Serial.println( measure.RangeMilliMeter);
 }
