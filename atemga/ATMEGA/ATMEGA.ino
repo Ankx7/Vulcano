@@ -10,6 +10,7 @@ volatile bool buttonState = false;  // Estado del botón (presionado o no)
 void setup() {
   pinMode(IR_PIN, OUTPUT);
   pinMode(BUTTON_PIN, INPUT);
+  pinMode(13, OUTPUT);
 
   // Configurar temporizador para generar interrupciones a una frecuencia de 38 kHz
   TCCR2A = 0;                 // Configurar el registro TCCR2A
@@ -27,8 +28,10 @@ void loop() {
   // Leer estado del botón
   if (buttonState) {
     Serial.println("Boton presionado");
+    digitalWrite(13, HIGH);
   } else {
     Serial.println("Boton no presionado");
+    digitalWrite(13, LOW);
   }
 
   delay(100);  // Pequeña pausa entre ciclos
