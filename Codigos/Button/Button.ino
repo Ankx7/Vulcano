@@ -26,6 +26,7 @@
 
 
 // variables will change:
++
 int buttonState = 0;         // variable for reading the pushbutton status
 int buttonPin = 18;
 
