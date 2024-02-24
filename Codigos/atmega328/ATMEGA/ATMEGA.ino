@@ -25,16 +25,7 @@ void setup() {
 }
 
 void loop() {
-  // Leer estado del botón
-  if (buttonState) {
-    Serial.println("Boton presionado");
-    digitalWrite(13, HIGH);
-  } else {
-    Serial.println("Boton no presionado");
-    digitalWrite(13, LOW);
-  }
-
-  delay(100);  // Pequeña pausa entre ciclos
+  
 }
 
 // Rutina de interrupción del comparador A del temporizador 2

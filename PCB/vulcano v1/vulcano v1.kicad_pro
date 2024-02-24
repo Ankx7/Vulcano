@@ -178,7 +178,8 @@
         1.5,
         1.8,
         2.0,
-        3.0
+        3.0,
+        5.0
       ],
       "via_dimensions": [
         {
@@ -451,7 +452,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "vulcano v1_achicado2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
