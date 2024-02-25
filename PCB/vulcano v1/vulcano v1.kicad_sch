@@ -3625,7 +3625,7 @@
     (property "Value" "C_Polarized_US" (at 80.645 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (at 76.835 34.29 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" (at 76.835 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.835 34.29 0)
