@@ -3255,12 +3255,12 @@
 
   (gr_rect (start 44.069 37.8256) (end 214.8488 114.3458)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp ad871a32-b96d-454a-8112-5df19e0140aa))
+  (gr_circle (center 68.405915 86.651626) (end 69.994246 86.651626)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp b094f708-701b-4be1-86ad-a367a9789d21))
+  (gr_circle (center 51.937208 86.651626) (end 53.490967 86.651626)
+    (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp e7410cce-6c1f-4fa1-b203-f6bda717edd6))
   (gr_rect (start 46.843936 84.607223) (end 72.875418 103.643789)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 0419c164-2b06-4677-ba18-00e1bdb6735f))
-  (gr_circle (center 68.405915 86.651626) (end 69.774952 87.456942)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp b094f708-701b-4be1-86ad-a367a9789d21))
-  (gr_circle (center 51.937208 86.651626) (end 53.265979 87.456942)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp e7410cce-6c1f-4fa1-b203-f6bda717edd6))
 
   (segment (start 210.82 61.236) (end 210.3628 61.236) (width 0.25) (layer "B.Cu") (net 0) (tstamp 0244b8c5-648d-4ad9-9b12-196f8ae70d2d))
   (segment (start 197.36312 102.708021) (end 198.762773 104.107674) (width 0.8) (layer "B.Cu") (net 0) (tstamp 03cec79f-3da1-458d-a59b-7109660e0a8d))
